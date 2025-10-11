@@ -1,0 +1,170 @@
+Assignment-1 :What are the types Applications ?
+---> Web Applications 
+    Desktop GUI Applications
+    Command-Line Interface (CLI) Applications
+    Data Science and Data Analysis Applications
+    Machine Learning and AI Applications
+    Game Development
+    Networking Applications
+    Automation and Scripting Tools
+    Web Scraping Applications
+    IoT (Internet of Things) Applications
+    Database Applications
+    APIs and Backend Services
+    Cybersecurity and Penetration Testing Tools
+    Chatbots and Virtual Assistants
+    DevOps and System Administration Tools
+    Audio and Video Processing Applications
+    Blockchain and Cryptocurrency Applications
+    Simulation and Modeling Tools
+    Scientific and Numeric Computing Applications
+    Augmented Reality (AR) / Virtual Reality (VR) Prototypes
+
+
+Assignment-2 :What is Programming ?
+---> Programming is the process of writing instructions - code that a computer can understand
+    and execute to perform specific tasks.
+
+
+Assignment-3 :What is Python ?
+---> Python is a high-level, interpreted, and general-purpose programming language that is known for
+    its simplicity and readability.
+---> Python is very Easy and Beginner friendly. 
+
+
+Assignment-7 :How memory is managed in Python ?
+---> Python automatically manages memory using reference counting and a garbage collector to clean up
+    unused objects.
+---> we don't need to manually allocate or free memory—Python does it for us.
+
+
+Assignment-8 :What is purpose continuing statement in Python ?
+---> The continue statement is used inside loops to skip the current iteration and move to the next one.
+
+
+Assignment-17 :What are negetive indexes and why are they used ?
+---> In Python, negative indexes are used to access elements from the end of a list, string, or 
+    any sequence.
+---> They are used for access elements from the end without knowing the list's length. Negetive indexes 
+    makes code sorter and using in slicing , indexing , loops.
+
+
+Assignment-25 :What is list ? How will you reverse a list ?
+---> List is a collection of items or elements...List is a mutable , We can change list elements.
+    List contains different data types.
+---> We can reverse a list by reverse()-method and slicing()-method[::-1].
+
+Assignment-26 :How will you remove last object from a list ?
+---> With the pop() method.
+
+
+Assignment-27 :Suppose list1 is [2,33,222,14,and 25], What is list1 [-1] ?
+--->[25]
+
+
+Assignment-28 :Differentiate between append() and extend() methods ?
+---> append() - Adds single elements to the end of the list.
+              - List ni andar biji list tarike print thay.
+              - Example : append[3,4] OUTPUT : [1,2[3,4]]
+    extend() - Adds each elements like tuple, list to the list.
+             - List ni andar elements tarike print thay.
+             - Example : extend[3,4] OUTPUT : [1,2,3,4]
+
+Assignment-29 :Write a Python function to get the largest number, smallest number and sum of all from 
+               a list.
+--->max(), min(), sum()
+
+
+Assignment-30 :How will you compare two lists ?
+---> We can compare two lists with multiple ways :
+    Comparison Type	Method
+    Same elements & order --	list1 == list2
+    Same elements (any order) -- sorted(list1) == sorted(list2)
+    Same length	-- len(list1) == len(list2)
+    Common_&/different_- items -- Use set()
+
+
+Assignment-43 :What is tuple? Difference between tuple and list.
+---> A Tuple is an Ordered and Immutable Collection of items.
+     Tuple values can not be change.
+     Tuple always in "()" small bracket. 
+---> A List is a Mutable Collection of items.
+     List values can be change.
+     List always in "[]" squre bracket.
+
+
+Assignment-47 :How will you create a dictionary using tuples in python ?
+---> We can create a dictionary from a list of tuples, where each tuple contains a key-value pair.
+
+
+Assignment-51 :How do you Traverse Through a Dictionary Object in Python ?
+---> A Dictionary Object in Python can be traversed using a for loop with .items() to access both keys and 
+     values.
+     Example: for key, value in my_dict.items(): loops through all key-value pairs.
+
+
+Assignment-52 :How do you check the Presence of a key in A Dictionary ?
+---> With using 'in' key word.
+
+
+Assignment-65 :How many basic types of Functions are Available in Python ?
+---> 1. Built-in Function 
+     2. User-Define Function
+
+
+Assignment-66 :How can you pick a random item from a list or tuple ?
+---> random.choice() function
+
+
+Assignment-67 :How can you pick a random item from a range ? 
+---> random.randrange() function
+
+
+Assignment-68 :How can you get a random number in python ?
+---> random.randint() :- it returns	Random integer 
+     random.random() :- it returns Random float (0.0 to 1.0)
+     random.uniform(a, b) :- it returns Random float between
+     random.randrange() :- it returns Random int from range
+
+
+Assignment-69 :How will you set the starting value in generating random numbers ?
+--->
+Assignment-70 :How will you randomize the items of a list in place ?
+--->
+Assignment-71 :What is File Function in Python? What are keywords to create and write file.
+--->
+Assignment-83 :Explain Exception Handling ? What is an Error in Python ?
+---> Exception handling is a way to gracefully handle runtime errors so that the program does run without 
+     any error / doesn't stop.
+---> An error in Python is a problem that occurs when the program is running and causes it to stop if not 
+     handled.
+--->There are two main types:
+     1. Syntax Errors – Mistakes in the code's structure (e.g., missing colon)
+     2. Runtime Errors (Exceptions) – Errors that occur while the program is running (e.g., dividing by zero)
+
+
+Assignment-84 :How many Except statements can a try-except block have ? Name Some built-in Exception    
+               classes :
+--->A try block can have multiple except statements to handle different exceptions.
+    Examples of built-in exception classes include: ValueError, TypeError, ZeroDivisionError, IndexError, and KeyError.
+
+
+Assignment-85 :When we the else part of try-except-else be executed ?
+---> The else part of a try-except-else block is executed when only if no exception occurs in the try 
+     block.
+
+
+Assignment-86 :Can one block of except statements handle multiple exception ?
+---> Yes, one except block can handle multiple exceptions by grouping them in parentheses.
+
+
+Assignment-87 :When is the finally block Executed ?
+---> The finally block is executed always, whether an exception occurs or not — even if there's a return,  
+     break, or an error.
+
+
+Assignment-88 :What happens when "1"==1 is executed ?
+--->
+Assignment-89 :How do you Handle Exceptions with Try/Except/Finally in Python ? Explain with coding     
+               snippets.
+--->
